@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+
+@font-face {
+    font-family: ATB;
+    src: url(AirtravelerspersonaluseBdit-gxgyE.otf);
+  }
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height:12vh;
+  background: linear-gradient(to right,rgb(20, 18, 18),rgb(54, 54, 54),90%, rgb(20, 18, 18));
+ 
+}
+
+.topnav #logo{
+    float:left;
+     font-size: 7vh;
+     color: #f2f2f2;
+     padding: 0px 3vw 2vh 1vw;
+     text-align: center;
+     text-decoration: none;
+     font-family: ATB;
+ }
+
+.topnav #nav-item  {
+  float: left;
+  color: #f2f2f2;
+  font-weight:light;
+  text-align: center;
+  padding: 3vh 2vw 2.5vh 1vw;
+  text-decoration: none;
+  font-size: 3vh;
+  margin-top:0.8vh;
+  font-family: 'Baloo Paaji 2', cursive;
+  
+}
+
+.topnav #nav-item:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav #nav-item.split {
+  float: right;
+}
+.topnav #nav-item.split:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.topnav #nav-item.menuimg{
+    float:right;
+}
+
+/* LOGIN AND REGISTRATION FORM  */
+
+.mid{
+    margin-top:4vh;
+    margin-left:20vw;
+    margin-right:20vw;
+    background-color:rgba(255, 251, 251, 0.959);
+    box-shadow: 5px 5px 5px 5px #313030 ;
+    height:74vh;
+    
+   
+    border-radius:10px 10px 0px 0px;
+   
+}
+#sup{
+    font-family: 'Baloo Paaji 2', cursive;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    text-align: center;
+    color:rgb(45, 43, 43)
+}
+
+.inp{
+    display:block;
+    height:8vh;
+    width:30vw;
+    text-align: center;
+    margin-left:15vw;
+    margin-top: 2vh;
+    font-size: 22px;
+    border-radius: 10px;
+    border:1.5px solid rgb(19, 18, 18);
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+.inp:hover{
+    box-shadow: 2px 2px  #a62444;
+    border:3px solid #a62444;
+}
+
+#sbtn{
+    color:white;
+    border:2px solid white;
+    height:8vh;
+    width:25vw;
+    border-radius: 10px;
+    background-color: #535152 ;
+    margin-left:18vw;
+    margin-top:4vh;
+    margin-bottom: 2vh;
+    font-size: larger;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+    
+}
+#sbtn:hover{
+    box-shadow: 2px 2px rgb(48, 47, 47);
+    border:3px solid #fff;
+}
+
+
+/* LOGIN PAGE FORGOT PASSWORD INFO */
+
+.mid a{
+    color:rgb(86, 57, 250);
+    text-decoration: none;
+    font-size: 22px;
+    display:block;
+    
+}
+
+.mid .info{
+    display:block;
+    text-align:center;
+    margin-top:3vh;
+    font-size: 8px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+/* INDEX PAGE ABOUT SECTION */
+ 
+.index-mid{
+    margin-top:10vh;
+    text-align:center;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+.index-mid img{
+    width:25vw;
+}
+.index-mid p{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size:20px;
+    justify-content: right;
+}
+
+/* BOTTOM DIVISION FOR ALL */
+
+.bottom{
+    margin-top: 10%;
+    margin-bottom: 0px;
+    height: 15vh;
+    box-shadow: 13px 0 13px #878183 ;
+    background: linear-gradient(to right,rgb(20, 18, 18),rgb(54, 54, 54),90%, rgb(20, 18, 18));
+}
+
+
+    /* RESPONSIVE MENU BAR */
+
+.topnav img{
+    display:none;
+}
+
+#menubar{
+    max-height:0vh;
+    margin-top:2vh;
+    text-align:center;
+    box-sizing: border-box;
+    font-size:6vw;
+    font-family: 'Baloo Paaji 2', cursive;
+    transition:1s ease-in-out;
+    overflow:hidden;
+}    
+#menubar a{ 
+    display:block;
+    text-decoration: none;
+    
+    
+}
+
+@media only screen and (max-width: 570px){
+.navitems{
+    display:none;
+}
+
+.topnav img{
+    
+    display:block;
+    width:8vw;
+}
+
+
+.index-mid img{
+    width:45vw;
+}
+
+
+#menubar{
+ border-top:2px solid black; 
+ border-bottom:4px solid black; 
+ background-color:rgba(255, 251, 251, 0.959);
+ box-shadow: 5px 5px 5px 5px #7d7c7c ;
+}
+
+.menubar a{
+    border-top:2px solid black;
+    color:black;
+    
+}
+
+.mid{
+    margin-top:4vh;
+    margin-left:10vw;
+    margin-right:10vw;
+   
+}
+.inp{
+    
+    width:60vw;
+    margin-left:10vw;
+    font-size:4vw;
+}
+
+#sbtn{
+    width:45vw;
+}
+
+}
+
+
+@media only screen and (max-width: 750px){
+    .inp{
+        font-size:3vw;
+    }
+}
